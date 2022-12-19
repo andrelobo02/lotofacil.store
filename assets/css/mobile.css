@@ -1,0 +1,10 @@
+#gallery-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+        align-items: center;
+}
+
+.gallery-image {
+    width: 100%;
+}
+
