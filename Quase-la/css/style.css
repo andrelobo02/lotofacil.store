@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* confg zera tudo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+/* config zera tudo fim*/
+
+body{
+    background-color: #f1f6fc31;
+}
+
+/* configuração section e footer*/
+section, footer {
+    padding: 90px 0px;
+}
+
+/* configuração titulo 01*/
+h3{
+    font-size: 40px;
+}
+
+/* configuração paragrafo 01*/
+p{
+    color: black; /* cor do testinho*/
+}
+
+/* configuração container*/
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/* começo config completa do texto e imagem */
+
+.container-img-txt{
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faca-mais-text {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.faca-mais-text img {
+    width: 230px;
+}
+
+.faca-mais-text h3{
+    font-size: 40px;
+}
+
+.faca-mais-text .ptxtimg1{
+    margin: 5px 30px 10px 0;
+    font-size: 20px;
+}
+
+.calendly-inline-widget{
+    width: 50%;
+}
+
+/* fim config completa do texto e imagem*/
+
+@media(max-width: 830px){
+    section, footer {
+        padding: 30px 0px;
+    }
+   
+    .container-img-txt{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 5%;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+
+    .faca-mais-text img {
+        width: 170px;
+    }
+
+    .faca-mais-text h3{
+        font-size: 27px;
+    }
+    
+    .faca-mais-text {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .faca-mais-text .ptxtimg1{
+        margin: 15px 0px 0px 0px;
+        font-size: 18px;
+    }
+
+    .calendly-inline-widget{
+        margin: 30px 0px 0px 0px
+    }
+}

@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* confg zera tudo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+/* config zera tudo fim*/
+
+html{ /* faz os botões que mandam para cima e para baixo na pagina irem mais devagar*/
+    scroll-behavior: smooth;
+}
+
+.body{
+    background-color: #f1f6fc31;
+}
+
+/* configuração section e footer*/
+section, footer {
+    padding: 30px 0;
+}
+
+/* configuração titulo 01*/
+h3{
+    font-size: 40px;
+}
+
+/* configuração paragrafo 01*/
+p{
+    color: rgb(63, 63, 63); /* cor do testinho*/
+}
+
+/* configuração container*/
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* configurando imagem de fundo principal*/
+
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* fixando a imagem idenpedente da rolagem*/
+    padding: 0px 0px 70px 0px;
+}
+
+
+/* configurando tela principal*/
+
+.containerprinc{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 0px 80px 0px;
+}
+
+.containerprinc2{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.banner01{
+    flex-direction: column;
+    align-items: center; /* isso aqui ta colocando as imagens presas no centro, assistir o minuto 32 do video para entender */
+}
+
+
+/*configurando o epaço que as letra e botão ocupam na tela*/
+
+.banner01 .banner-text01 img{
+    width: 250px;
+}
+
+.banner01 .banner-text01{
+    margin: 20px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+/*configurando o tirulo*/
+.banner01 .banner-text01 .headline{
+    font-size: 35px;
+    color: white;
+}
+
+.banner01 .banner-text01 .subheadline{
+    padding: 0px 120px 0px 120px;
+}
+
+.banner01 .banner-text01 .headline .rosa1{
+    color: #f72585;
+}
+
+/*configurando o tirulo*/
+.banner01 .banner-text01 p{
+    font-size: 19px;
+    color: white;
+    font-weight: lighter; /*efastando os outro elementos dele*/
+    margin: 13px 0; 
+    padding: 0px 0px 0px 0px;
+}
+
+/* começo do formulario01*/
+
+.banner01 .right-site01{
+    width: 100%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #1E0062; /* daqui + FORMULARIO*/
+    border-radius: 14px;
+    margin-right: 80px;
+    height: fit-content;
+    border: 1px solid #f1f1f1;
+}
+
+.banner01 .right-site01 input{
+    display: block;
+    width: 100%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    margin-bottom: 10px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.right-site01 .btn-form{
+    display: block;
+    width: 100%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 0.8px solid #f72585;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 26px;
+    background-color: #f72585;
+}
+/* fim formulario01*/
+
+
+/* começo config completa do texto e imagem */
+
+.container-img-txt{
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+}
+
+.faca-mais-text {
+    width: 90%;
+    padding: 0 50px;
+    justify-content: space-around;
+}
+
+.faca-mais-text h3{
+    font-size: 33px;
+}
+
+.faca-mais-text .ptxtimg1{
+    margin: 5px 30px 10px 0px;
+    font-size: 19px;
+}
+
+.faca-mais-img{
+    width: 90%;
+}
+
+.faca-mais-img img{
+    width: 74%;
+}
+
+.btn{  /* botão*/
+    background-color: #f72585;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 24px;
+}
+
+/* fim config completa do texto e imagem*/
+
+/* começo config clientes */
+.clientes h3,
+.clientes p{
+    text-align: center;
+}
+
+.clientes h3{
+    font-size: 50px;
+}
+
+.clientes .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* fim config clientes */
+
+/* COMEÇO pagina SERVIÇOS*/
+
+/* COMEÇO quadradinhos SERVIÇOS*/
+
+.servicos{
+    background-color: #000000;
+}
+
+.container-servicos{
+    max-width: 1300px; /* aqui se você quiser os 4 quadradinhos enfileirados é só colocar o valor 1800px*/
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.servicos h3{
+    text-align: center;
+    color: white
+}
+
+.servicos .container-servicos p{
+    text-align: center;
+    margin: 5px 0 10px 0;
+    font-size: 18px;
+    color: white
+}
+
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.servicos .row-card-item{
+    background-color: #000000;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+     border: 2px solid #f1f1f1;
+}
+
+.servicos .row-card-item:hover{
+    background-color: white;
+}
+
+.servicos .row-card-item:hover p{
+    color: black;
+}
+
+.servicos .row-card-item img{  /* isso aqui é a borda em torno da imagem*/
+  width: 130px;
+  padding: 15px;
+}
+
+.servicos .row-card-item p.nome-servico{
+    margin: 5px 0;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+.servicos .row-card-item p.descricao-servico{
+    transition: 0.3s;
+}
+
+.botãoservico1{  /* centralizando botão*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.btnservico1{  /* botão*/
+    background-color: #f72585;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 24px;
+}
+/* fim quadradinhos SERVIÇOS*/
+
+/* COMEÇO quadradinhos SERVIÇOS2*/
+.container-servicos2{
+    max-width: 1800px; /* aqui se você quiser os 4 quadradinhos enfileirados é só colocar o valor 1800px*/
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.servicos2 h3{
+    text-align: center;
+}
+
+.servicos2 .container-servicos2 p{
+    text-align: center;
+    margin: 5px 0 10px 0;
+    font-size: 19px;
+}
+
+.servicos2 .rows-cards2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 30px 0px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.servicos2 .row-card-item2{
+    background-color: #FFFFFF;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 25px #e7e7e7;
+}
+
+.servicos2 .row-card-item2:hover{
+    background-color: #f72585;
+}
+
+.servicos2 .row-card-item2:hover p{
+    color: white;
+}
+
+.row-card-item2 .icons2 i{
+    color: #320b87;
+}
+
+.row-card-item2:hover .icons2 i{
+    color: white;
+    transition: 0.3s;
+}
+
+.servicos2 .row-card-item2 i {  /* isso aqui é a borda em torno da imagem*/
+  font-size: 50px;
+}
+
+.servicos2 .row-card-item2 p.nome-servico{
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.servicos2 .row-card-item2 p.descricao-servico{
+    transition: 0.3s;
+}
+
+.botãoservico2{  /* centralizando botão*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnservico2{  /* botão*/
+    background-color: #f72585;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 24px;
+}
+
+/* fim quadradinhos SERVIÇOS*/
+
+/* COMEÇO INFOR + FORMULARIO*/
+
+.container-form2{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.contato-info2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 40px 0px 50px 0px;
+}
+
+.contato-info2 .left-site2{
+    width: 80%;
+    padding: 0px 0px 0px 0px;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;  /* até aqui colocar no FORMULARIO*/
+}
+
+.contato-info2 .left-site2 div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contato-info2 .left-site2 img{
+    width: 250px;
+}
+
+.contato-info2 .left-site2 p{
+    font-size: 35px;
+    color: white;
+}
+
+.contato-info2 .left-site2 .subheadline2{
+    font-size: 19.2px;
+    padding: 12px 0px 0px 0px;;
+}
+/* formulario*/
+.contato-info2 .right-site2{
+    width: 70%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 170px;
+    background-color: #1E0062; /* daqui + FORMULARIO*/
+    border-radius: 14px;
+    margin-right: 5px;
+    height: fit-content;
+    border: 1px solid #f1f1f1;
+}
+
+.contato-info2 .right-site2 p{
+    color: white;
+    padding: 0px 100px 16px 0px;
+    font-size: 25px;
+}
+
+.contato-info2 .right-site2 input{
+    display: block;
+    width: 100%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    margin-bottom: 10px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.right-site2 .btn-form2{
+    display: block;
+    width: 100%; /* isso diz quanto do espaço disponivel o negocio vai ocupar*/
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 0.8px solid #f72585;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 26px;
+    background-color: #f72585;
+}
+/* fim formulario*/
+
+
+/* COMEÇO RESPONSIVO*/
+
+@media(max-width: 830px){
+/* começo pagina incial + formulario*/
+
+header{
+    padding: 0px 5px 1px 5px;
+}
+
+.containerprinc {
+  max-width: 1900px;
+}
+
+.containerprinc2{
+    max-width: 1900px;
+}
+
+.containerprinc2{
+    width: 100%;
+   max-width: 1900px;
+}
+
+.banner01 .right-site01{
+    padding: 10px 10px 10px 10px;
+}
+
+.banner01 .banner-text01{
+    padding: 0;
+    margin: 0px;
+}
+
+.banner01 .banner-text01 img{
+    width: 170px;
+}
+
+.banner01 .banner-text01 .headline{
+  font-size: 24px;
+  padding: 0px 12px 0px 12px
+}
+
+.banner01 .banner-text01 p{
+  font-size: 16px;
+}
+
+.banner01 .banner-text01 .subheadline{
+    padding: 0px 15px 0px 15px;
+}
+
+.right-site01 .btn-form{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 17px;
+}
+/* fim pagina incial + formulario*/
+
+    /* imagem + texto RESPONSIVO*/
+.faca-mais .faca-mais-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+}
+
+.container-img-txt{
+    flex-direction: column;
+}
+
+.faca-mais .faca-mais-text h3{
+    font-size: 30px;
+}
+
+.faca-mais-text,
+.faca-mais-img{
+    width: 100%;
+}
+
+.faca-mais-img img{
+    width: 100%;
+}
+/* fim da imagem + texto RESPONSIVO*/
+
+.btnservico1{
+    font-size: 20px;
+}
+
+
+/* começo serviço2*/
+
+.btnservico2{
+    font-size: 20px;
+}
+/* fim Serviço2*/
+
+/* PAGINA do formulario*/
+
+.container-form2{
+    margin: 0px 5px 0px 5px;
+    padding: 0px 0;
+}
+
+.contato .contato-info2{
+    flex-direction: column;
+}
+
+.contato-info2 .left-site2{
+    margin: 0px 0px 20px 0px;
+}
+
+.contato-info2 .left-site2 img{
+    width: 170px;
+}
+
+.contato-info2 .left-site2 p{
+    font-size: 26px;
+}
+
+.contato-info2 .left-site2 .subheadline2{
+    font-size: 14px;
+}
+
+.contato-info2 .right-site2,
+.contato-info2 .left-site2{
+    width: 100%;
+}
+
+.right-site2 .btn-form2{
+    font-size: 20px;
+}
+
+.contato-info2 .right-site2{
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    margin-right: 0px;
+}
+
+.contato-info2 .right-site2 p{
+     padding: 0px 0px 16px 0px;
+     font-size: 20px;
+}
+
+.container-form2{
+    text-align: center;
+}
+
+
+/* PAGINA sdo formulario*/
+
+}
+
